@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Slack Test Suite" >
+    <test name="Demo Test">
+        <classes>
+            <class name="com.slack.api.test.automation.SlackAPITest"/>
+        </classes>
+    </test>
+</suite>

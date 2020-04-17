@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Creating Channel channel-ravitxfzp]]>
+    </line>
+    <line>
+      <![CDATA[Joining Channel channel-ravitxfzp]]>
+    </line>
+    <line>
+      <![CDATA[Renaming Channel with new namenew-name-bts]]>
+    </line>
+    <line>
+      <![CDATA[Listing Channel ]]>
+    </line>
+    <line>
+      <![CDATA[Channel List After Rename Channel : [api, channel-raviastaf, channel-ravibmnod, channel-ravidubsr, channel-ravifulfi, channel-ravifxrfc, channel-ravigajpn, channel-ravihatdb, channel-raviilrxj, channel-raviimxez, channel-ravijnnsv, channel-ravikjkwb, channel-ravilvgkd, channel-ravinsieg, channel-ravipvjsc, channel-raviq, channel-raviqbtmj, channel-ravirhufm, channel-ravitqatg, channel-ravivdlpx, channel-raviwqnep, channel-raviwrrmm, channel-ravixtrjn, channel-ravixuswp, channel-ravizlebf, channel-ravizpsfp, channel-renamed, general, new-channel, new-channel1, new-name-bts, new-name-cbb, new-name-cqw, new-name-cvx, new-name-izr, new-name-jja, new-name-lbq, new-name-wey, new-name-xed, random, renamed-channel, xxxchannel]]]>
+    </line>
+    <line>
+      <![CDATA[Archiving Channel C012R5TUADN]]>
+    </line>
+    <line>
+      <![CDATA[Listing Channel ]]>
+    </line>
+  </reporter-output>
+  <suite name="Slack Test Suite" duration-ms="11063" started-at="2020-04-17T12:02:52Z" finished-at="2020-04-17T12:03:03Z">
+    <groups>
+    </groups>
+    <test name="Demo Test" duration-ms="11063" started-at="2020-04-17T12:02:52Z" finished-at="2020-04-17T12:03:03Z">
+      <class name="com.slack.api.test.automation.SlackAPITest">
+        <test-method status="PASS" signature="prepareRequestSpecification()[pri:0, instance:com.slack.api.test.automation.SlackAPITest@610694f1]" name="prepareRequestSpecification" is-config="true" duration-ms="535" started-at="2020-04-17T12:02:52Z" finished-at="2020-04-17T12:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareRequestSpecification -->
+        <test-method status="PASS" signature="runTest()[pri:0, instance:com.slack.api.test.automation.SlackAPITest@610694f1]" name="runTest" duration-ms="10512" started-at="2020-04-17T12:02:52Z" finished-at="2020-04-17T12:03:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Creating Channel channel-ravitxfzp]]>
+            </line>
+            <line>
+              <![CDATA[Joining Channel channel-ravitxfzp]]>
+            </line>
+            <line>
+              <![CDATA[Renaming Channel with new namenew-name-bts]]>
+            </line>
+            <line>
+              <![CDATA[Listing Channel ]]>
+            </line>
+            <line>
+              <![CDATA[Channel List After Rename Channel : [api, channel-raviastaf, channel-ravibmnod, channel-ravidubsr, channel-ravifulfi, channel-ravifxrfc, channel-ravigajpn, channel-ravihatdb, channel-raviilrxj, channel-raviimxez, channel-ravijnnsv, channel-ravikjkwb, channel-ravilvgkd, channel-ravinsieg, channel-ravipvjsc, channel-raviq, channel-raviqbtmj, channel-ravirhufm, channel-ravitqatg, channel-ravivdlpx, channel-raviwqnep, channel-raviwrrmm, channel-ravixtrjn, channel-ravixuswp, channel-ravizlebf, channel-ravizpsfp, channel-renamed, general, new-channel, new-channel1, new-name-bts, new-name-cbb, new-name-cqw, new-name-cvx, new-name-izr, new-name-jja, new-name-lbq, new-name-wey, new-name-xed, random, renamed-channel, xxxchannel]]]>
+            </line>
+            <line>
+              <![CDATA[Archiving Channel C012R5TUADN]]>
+            </line>
+            <line>
+              <![CDATA[Listing Channel ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+      </class> <!-- com.slack.api.test.automation.SlackAPITest -->
+    </test> <!-- Demo Test -->
+  </suite> <!-- Slack Test Suite -->
+</testng-results>

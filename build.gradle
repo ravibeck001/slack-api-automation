@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
+    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    compile group: 'com.jayway.jsonpath', name: 'json-path', version: '2.4.0'
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.0'
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.13.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.9.1'
+    compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.0'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.0'
+    compile 'org.jsoup:jsoup:1.10.2'
+}
+
+def testSuite = project.hasProperty("Demo")
+
+test {
+    useTestNG() {
+        useDefaultListeners = true
+        outputDirectory = file("test-output")
+        if (testSuite) {
+            println "Executing testSuite"
+            options.suites("testSuites/demoTestSuite.xml")
+        }
+    }
+}
