@@ -1,0 +1,11 @@
+.gradle/
+.idea/
+build/
+gradle/
+out/
+target/
+rerun/
+gradlew.bat
+gradlew
+# General
+.DS_Store
