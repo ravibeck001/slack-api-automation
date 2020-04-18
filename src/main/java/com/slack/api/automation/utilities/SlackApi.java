@@ -10,7 +10,6 @@ import org.testng.Reporter;
 import java.util.*;
 
 public class SlackApi {
-
     public Response createNewChannel(String channelName) {
         Map map = new HashMap<>();
         map.put("name", channelName);
