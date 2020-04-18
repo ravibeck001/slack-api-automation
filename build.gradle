@@ -33,7 +33,7 @@ test {
         outputDirectory = file("test-output")
         if (testSuite) {
             println "Executing testSuite"
-            options.suites("testSuites/demoTestSuite.xml")
+            options.suites("demoTestSuite.xml")
         }
     }
 }
