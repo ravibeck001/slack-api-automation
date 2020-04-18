@@ -58,4 +58,11 @@ public class PropertyFileReader {
         return prop.getProperty(environment.concat(".PATH_ARCHIVE_CHANNEL"));
     }
 
+    public static String getTOKEN() {
+        return prop.getProperty(environment.concat(".TOKEN"));
+    }
+
+
+
+
 }
