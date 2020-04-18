@@ -1,10 +1,7 @@
 # slack-api-automation
-
-
 - Technology Used: Java, TestNG, RestAssured, Gradle
-Usage:
+####Usage:
 - This project can be used in two ways:
-
    - Command Line
    - With IDE(IntelliJ, Eclipse etc)
 - How to use with Command line?
